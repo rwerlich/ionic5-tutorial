@@ -22,16 +22,10 @@
 		</ion-item>
 		<div *ngIf="formLogin.controls.email.errors" class="px-3 text-danger">
 			<p *ngIf="formLogin.controls.password.errors.required"><small>Campo obrigatório</small></p>
-			<p *ngIf="formLogin.controls.password.errors.pattern"><small>Formato inválido</small></p>
 		</div>
 		<br><br>
 
 		<ion-button size="large" color="success" expand="full" type="submit" [disabled]="!formLogin.valid">Login</ion-button>
 	</form>
-
-
-
-
-
 
 </ion-content>
