@@ -10,9 +10,6 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class LoginPage implements OnInit {
 
-	private usuario: string = '';
-	private senha: string = '';
-	public nomeUsuario: string;
 	public formLogin: FormGroup;
 
 	constructor(
